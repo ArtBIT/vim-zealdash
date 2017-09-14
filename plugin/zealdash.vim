@@ -5,17 +5,24 @@
 " Distributed under terms of the MIT license.
 "
 
+" Load only once {{{1
 if exists("g:zealdash_plugin_loaded")
-	finish
+    finish
 endif
 let g:zealdash_plugin_loaded = 1
 
 " FileType autocommands {{{1
 "
 if has('macunix')
-    execute "au FileType * exe 'setl keywordprg=open\ dash://'.&ft.':\'"
+    augroup zealdash
+        autocmd! * <buffer>
+        au FileType * exe 'setl keywordprg=open\ dash://'.&ft.':\'
+    augroup END
 elseif has('unix')
-    execute "au FileType * exe 'setl keywordprg=zeal\ '.&ft.':\'"
+    augroup zealdash
+        autocmd! * <buffer>
+        au FileType * exe 'setl keywordprg=zeal\ '.&ft.':\'
+    augroup END
 endif
 
 " vim: fdm=marker

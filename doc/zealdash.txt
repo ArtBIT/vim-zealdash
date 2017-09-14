@@ -1,4 +1,4 @@
-zealdash.txt*  Zeal/Dash keyword documentation lookup
+*zealdash.txt*  Zeal/Dash keyword documentation lookup
 
 CONTENTS                                           *zealdash-contents*
 
