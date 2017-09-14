@@ -1,8 +1,8 @@
 # Simple Zeal/Dash keyword lookup
 
 This is a simple plug-in for Vim (and NeoVim) allowing to bind Vim's
-builtin keyword lookup capabilities to an external program, namely Zeal
-(on GNU Linux) and Dash (on OSX).
+builtin keyword lookup capabilities to an external program, namely [Zeal](http://https://zealdocs.org/)
+(on GNU Linux) and [Dash](https://kapeli.com/dash) (on OSX).
 
 
 ## Installation
