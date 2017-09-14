@@ -1,5 +1,4 @@
 # Simple Zeal/Dash keyword lookup
-:Author: Djordje Ungar <gmail@djordjeungar.com>
 
 This is a simple plug-in for Vim (and NeoVim) allowing to bind Vim's
 builtin keyword lookup capabilities to an external program, namely Zeal
@@ -21,7 +20,7 @@ For example, using [Pathogen](https://github.com/tpope/vim-pathogen):
 Bundle installs are known to work fine also when using [Vundle](https://github.com/gmarik/vundle). Other
 bundle managers are expected to work as well.
 
-.. important:: If you use [Fish](http://fishshell.com/) as your shell, you *will* need to add
+:warning: If you use [Fish](http://fishshell.com/) as your shell, you *will* need to add
    `set shell=/bin/sh` to your `~/.vimrc` — the plugin relies on the
    setting pointing to a [Bourne-compatible](https://en.wikipedia.org/wiki/Bourne_shell) shell.
 
@@ -49,7 +48,7 @@ Git to update it:
 ### With Vundle
 
 Use the `:BundleUpdate` command provided by Vundle, for example invoking
-Vim like this::
+Vim like this:
 
   `$ vim +BundleUpdate`
 
