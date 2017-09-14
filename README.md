@@ -1,3 +1,5 @@
+[![GitHub stars](https://img.shields.io/github/stars/ArtBIT/vim-zealdash.svg)](https://github.com/ArtBIT/vim-zealdash) [![GitHub license](https://img.shields.io/github/license/ArtBIT/vim-zealdash.svg)](https://github.com/ArtBIT/vim-zealdash) [![GitHub issues](https://img.shields.io/github/issues/ArtBIT/vim-zealdash.svg)](https://github.com/ArtBIT/vim-zealdash/issues)
+
 # Simple Zeal/Dash keyword lookup
 
 This is a simple plug-in for Vim (and NeoVim) allowing to bind Vim's
