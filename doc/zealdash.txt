@@ -1,0 +1,37 @@
+zealdash.txt*  Zeal/Dash keyword documentation lookup
+
+CONTENTS                                           *zealdash-contents*
+
+Introduction                  |zealdash-introduction|
+Usage                         |zealdash-usage|
+Troubleshooting               |zealdash-troubleshooting|
+
+
+===========================================================================
+INTRODUCTION                                       *zealdash-introduction*
+
+This is a simple plug-in for Vim (and NeoVim) allowing to bind Vim's
+builtin keyword lookup capabilities to an external program, namely Zeal
+(on GNU Linux) and Dash (on OSX).
+
+
+===========================================================================
+USAGE                                                    *zealdash-usage*
+
+Zealdash binds itself to a FileType autocmd and registers a local 
+g:keywordprg depending on the filetype of the loaded file.
+
+Zealdash requires you to already have Zeal
+(http://https://zealdocs.org/) or Dash (https://kapeli.com/dash)
+installed on your system.
+
+To trigger a keyword lookup of the <cword>, just press K.
+
+
+
+===========================================================================
+TROUBLESHOOTING                                 *zealdash-troubleshooting*
+
+Please file an issue at https://github.com/artbit/vim-zealdash/issues
+
+vim:tw=78:sw=8:ts=8:ft=help:norl:noet
